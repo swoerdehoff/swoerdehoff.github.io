@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Sara Woerdehoff, Blog</title>
+    <link>https://swoerdehoff.github.io/</link>
+    <atom:link href="https://swoerdehoff.github.io/feed.xml" rel="self" type="application/rss+xml" />
+    <description>Writing by Sara Woerdehoff, Head of Marketing at WESCO Industries and a nonprofit marketing leader in western Iowa, on nonprofit marketing, small team strategy, AI search visibility, and doing director level work as a department of one.</description>
+    <language>en-us</language>
+    <lastBuildDate>Wed, 21 Oct 2026 09:00:00 -0500</lastBuildDate>
+    <item>
+      <title>Nonprofit Marketing Is Not For Profit Marketing With Less Money</title>
+      <link>https://swoerdehoff.github.io/blog-nonprofit-vs-forprofit-marketing.html</link>
+      <guid isPermaLink="true">https://swoerdehoff.github.io/blog-nonprofit-vs-forprofit-marketing.html</guid>
+      <pubDate>Wed, 21 Oct 2026 09:00:00 -0500</pubDate>
+      <description>The difference between nonprofit and for profit marketing is not the budget. It is the goals, the audiences, money that arrives with a rulebook, and a department that fits in one office chair.</description>
+    </item>
+  </channel>
+</rss>

@@ -47,6 +47,12 @@ article p{margin:0 0 1.35em}
 .signoff{border-top:1px solid var(--line);margin-top:36px;padding-top:22px;color:var(--ink-dim)}
 .backlink{display:inline-block;margin-top:28px;color:var(--teal);text-decoration:none}
 .backlink:hover{text-decoration:underline}
+.subscribe-box{border:1px solid var(--line);border-radius:12px;padding:20px 22px;margin-top:34px}
+.subscribe-head{font-family:var(--display);text-transform:uppercase;letter-spacing:.02em;font-size:1.15rem;margin:0 0 12px}
+.subscribe-box form{display:flex;gap:10px;flex-wrap:wrap}
+.subscribe-box input[type=email]{flex:1;min-width:220px;background:#141418;border:1px solid var(--line);border-radius:8px;color:var(--ink);padding:11px 14px;font-family:var(--sans);font-size:1rem}
+.subscribe-box input[type=submit]{background:var(--accent);color:#fff;border:0;border-radius:8px;padding:11px 20px;font-family:var(--sans);font-weight:700;font-size:1rem;cursor:pointer}
+.subscribe-note{color:var(--ink-dim);font-size:.92rem;margin:12px 0 0}
 </style>
 </head>
 <body>
@@ -74,7 +80,14 @@ article p{margin:0 0 1.35em}
         <p>Here is what surprises people, though. The envy runs both ways. For profit marketing has things my world studies wistfully: real testing budgets, clean attribution, salaries that match the market, and the freedom to kill a campaign that is not working without a committee conversation about its feelings. And nonprofit marketing has things the for profit world is quietly trying to learn: how to make people care without a discount code, how to build loyalty that is not a points program, how to tell a true story well enough that someone hands you money for a result they will never personally use. Purpose is not a nonprofit invention that companies borrowed for their slide decks. It is a discipline, and organizations that live on it get very good at it, mostly because the alternative is closing.</p>
         <p>So no, the difference is not the budget. The difference is what the marketing is for. One sector sells a product and measures money. The other fills programs, earns trust, and raises the money that keeps the doors open, all at the same time, usually with a department that fits in one office chair. Having done the second for eight years, I would put its training up against any in the business. I can stretch a dollar until it begs, run a campaign in six directions at once, and I remain irrationally afraid of squirrels, which keeps me humble and mostly indoors.</p>
     <p class="signoff">I am Sara Woerdehoff, Head of Marketing at WESCO Industries in Denison, Iowa, a nonprofit marketing leader in western Iowa.</p>
-    <p>Subscribe to new posts: <a href="/feed.xml">RSS feed</a></p>
+    <div class="subscribe-box">
+      <p class="subscribe-head">Get new posts by email</p>
+      <form action="https://buttondown.com/api/emails/embed-subscribe/sarawoerdehoff" method="post" class="embeddable-buttondown-form">
+        <input type="email" name="email" placeholder="you@example.com" required />
+        <input type="submit" value="Subscribe" />
+      </form>
+      <p class="subscribe-note">One email when a new post goes up. No noise, unsubscribe anytime. Prefer a reader app? <a href="/feed.xml">RSS feed</a></p>
+    </div>
   </article>
   <a class="backlink" href="/">Back to the portfolio</a>
 </main>

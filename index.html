@@ -436,7 +436,7 @@ footer{background:var(--paper);color:var(--paper-ink);margin-top:clamp(70px,9vw,
   .footer-grid{grid-template-columns:1fr 1fr}
   .footer-about{grid-column:1/-1}
   .mini-cta{flex-direction:column;align-items:flex-start}
-  .topline nav a:not(.nav-cta){display:none}
+  .topline nav a[href^="#"]:not(.nav-cta){display:none}
 }
 @media (max-width:640px){
   .page,.footer-inner{width:calc(100% - 32px)}
